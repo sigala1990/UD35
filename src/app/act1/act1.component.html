@@ -1,0 +1,19 @@
+<div class="text-center">
+
+<h1>Listado clientes {{nombreact1}}</h1>
+
+<table class="table text-center">
+  <tr class="col-6">
+    <th>Nombre</th>
+    <th>Direccion</th>
+    <th>Cif</th>
+    <th>Grupo</th>
+  </tr>
+  <tr  *ngFor="let lista of listaHija">
+    <td> {{lista[0]}}</td>
+    <td> {{lista[1]}}</td>
+    <td> {{lista[2]}}</td>
+    <td> {{lista[3]}}</td>
+  </tr>
+</table>
+</div>
